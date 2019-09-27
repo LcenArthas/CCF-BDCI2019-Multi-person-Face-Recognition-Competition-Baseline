@@ -16,8 +16,18 @@ CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline
 :running: 复现步骤
 -----
 
-## :one: Clone the repo:
+## :one: 下载代码
 
 ```
-git clone https://github.com/LcenArthas/CWCV2019-Amur-Tiger-Re-ID.git
+git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline.git
 ```
+
+## :two: 配置环境
+
+-Ubantu16.04
+
+-Python 3.6
+
+-PyTorch 1.0.0
+
+---------

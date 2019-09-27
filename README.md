@@ -1,12 +1,6 @@
 CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline
 ===============
 
-<div align="center">
-
-<img src="BDCI.png">
-
-</div>
-
 :sparkles:赛题链接：[CCF BDCI2019 多人种人脸识别](https://www.datafountain.cn/competitions/348)
 
 这份代码主要是基于PyTorch框架实现，利用 MageFace 训练的预训练模型，来对赛题的测试集进行测试。
@@ -24,10 +18,10 @@ git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recogniti
 
 ## :two: 配置环境
 
--Ubantu16.04
+ - Ubantu16.04
 
--Python 3.6
+ - Python 3.6
 
--PyTorch 1.0.0
+ - PyTorch 1.0.0
 
 ---------

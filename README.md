@@ -3,7 +3,7 @@ CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline
 
 <div align="center">
 
-<img src="BDCI.png" width="900px"/>
+<img src="BDCI.png">
 
 </div>
 

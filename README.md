@@ -34,6 +34,10 @@ git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recogniti
 
 - [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
 
+下载好的模型置于根目录
+
+------------------------------------------------------
+
 :clap: 开始！
 --------
 

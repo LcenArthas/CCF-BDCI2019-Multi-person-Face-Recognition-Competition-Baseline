@@ -26,13 +26,13 @@ git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recogniti
 
  - PyTorch 1.0.0
 
-## ：three：配置测试集文件
+## :three：配置测试集文件
 
 把测试集的图片文件夹 `/test/` 置于根目录，把提交例样 `submission_template.csv` 同样置于根目录
 
-## ：four：下载预训练模型
+## :four：下载预训练模型
 
-- [SE-LResNet101E-IR](https://pan.baidu.com/s/1iUsMA0k6cHYvTYbqsMSzoQ) 
+- [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
 
 :clap: 开始！
 --------

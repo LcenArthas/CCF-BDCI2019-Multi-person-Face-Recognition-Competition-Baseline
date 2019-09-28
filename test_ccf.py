@@ -70,24 +70,7 @@ def cosine_similarity(x1, x2):
     return d2
 
 # 加载训练过得模型
-# opt = Config()
-# model_path = ['resnet50_African_90.pth', 'resnet50_Indian_90.pth',
-#               'resnet50_Asian_90.pth', 'resnet50_Caucasian_10.pth']       #模型顺序：Asina, African, India, Caucasian
-#
-# model_path = ['resnet18_African_110.pth', 'resnet18_Asian_110.pth',
-#               'resnet18_Indian_110.pth', 'resnet18_Caucasian_110.pth']       #模型顺序：Asina, African, India, Caucasian
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # sets device for model and PyTorch tensors
-# model_dic = {}
-# for model_path in model_path:
-    # if opt.backbone == 'resnet18':
-    #     model = resnet_face18(opt.use_se)
-    # elif opt.backbone == 'resnet34':
-    #     model = resnet34()
-    # elif opt.backbone == 'resnet50':
-    #     model = resnet50()
-
-    # model = resnet101(args)
-    # model = DataParallel(model)
 
 checkpoint = 'BEST_checkpoint.tar'
 print('loading model: {}...'.format(checkpoint))
@@ -115,7 +98,7 @@ sio.savemat('face_embedding_test.mat', fe_dict)
 
 face_features = sio.loadmat('face_embedding_test.mat')
 print('Loaded mat')
-sample_sub = open('/submission_template.csv', 'r')  # sample submission file dir
+sample_sub = open('./submission_template.csv', 'r')  # sample submission file dir
 sub = open('submission_new.csv', 'w')
 print('Loaded CSV')
 

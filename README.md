@@ -13,6 +13,8 @@ CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline
 -----
 增加整合了训练部分代码即复现步骤
 
+------------------------------------
+
 :running: 准备工作
 -----
 
@@ -43,18 +45,30 @@ git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recogniti
 mkdir train_data
 ```
 
-:small_orange_diamond: 
+:small_orange_diamond: 准备数据：
 
 ```
 cd data
 python pre_data.py
 ```
 
-## :three: 配置测试集文件
+## :two: 开始训练
+
+```
+cd data
+python pre_data.py
+```
+
+----------------------------------------------------
+
+:sparkles: 测试提交部分
+--------
+
+## :one: 配置测试集文件
 
 把测试集的图片文件夹 `/test/` 置于根目录，把提交例样 `submission_template.csv` 同样置于根目录
 
-## :four: 下载预训练模型
+## :two: 下载预训练模型
 
 - [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
 

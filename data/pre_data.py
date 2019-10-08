@@ -23,7 +23,7 @@ else:
 
 #============================================================================================
 race_list = ['African', 'Caucasian', 'Asian', 'Indian']
-id = 1                                                         #对每个人种图片编写id
+id = 0                                                         #对每个人种图片编写id
 for race in race_list:
     race_satlist = []                                          #每个race中图片个数统计
     data_path = root_path + 'training/' + race

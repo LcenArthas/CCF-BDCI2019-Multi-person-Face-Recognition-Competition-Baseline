@@ -55,8 +55,7 @@ python pre_data.py
 ## :two: 开始训练
 
 ```
-cd data
-python pre_data.py
+python train.py
 ```
 
 ----------------------------------------------------

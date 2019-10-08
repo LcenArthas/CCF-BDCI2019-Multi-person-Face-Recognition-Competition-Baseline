@@ -9,7 +9,11 @@ CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline
 
 -----------------------------------
 
-:running: 复现步骤
+:yum: UPDATE Oct. 8
+-----
+增加整合了训练部分代码即复现步骤
+
+:running: 准备工作
 -----
 
 ## :one: 下载代码
@@ -25,6 +29,26 @@ git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recogniti
  - Python 3.6
 
  - PyTorch 1.0.0
+ 
+ ------------------------------------------------------------
+ 
+:sparkles: 训练部分
+--------
+
+## :one: 准备数据
+
+:small_orange_diamond: 在根目录下创建文件夹 `/train_data/`，并将训练文件夹 `/training/` 放入其中：
+
+```
+mkdir train_data
+```
+
+:small_orange_diamond: 
+
+```
+cd data
+python pre_data.py
+```
 
 ## :three: 配置测试集文件
 
